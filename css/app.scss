@@ -1,0 +1,848 @@
+@import 'fontface';
+$white:white;
+$navy:#10151B;
+$orange:#FF6600;
+$primary: $orange;
+$dark: $navy;
+$body-bg:$navy;
+$body-color: $white;
+$black:black;
+$lg : 992px;
+$r-1 : .75rem;
+
+::selection {
+    background: $orange;
+    color: $white;
+}
+
+h3 , h4 ,h2{
+    color: $orange;
+}
+
+@mixin desktop {
+    @media(min-width: $lg) {
+        @content;
+    }
+}
+
+a {
+    text-decoration: none !important;
+}
+
+// @import "../node_modules/bootstrap/scss/bootstrap";
+.font-weight-bolder {
+    font-weight: 900 !important;
+}
+
+.text-primary {
+    color: $orange !important;
+}
+
+html,
+body {
+    background-color: $navy;
+    height: 100%;
+    font-family: IRANYekan !important;
+    font-weight: normal;
+    direction: rtl;
+}
+
+.context {
+    @include desktop() {
+        padding-right: 5rem !important;
+        padding-left: 5rem !important;
+    }
+
+    .inside {
+        @include desktop() {
+            margin-top: -84px;
+        }
+    }
+
+    .title {
+        font-size: 3rem;
+        font-family: Yekan-Bakh !important;
+
+        @include desktop() {
+            font-size: 4.5rem;
+        }
+    }
+
+    .describe {
+        font-size: 1.2rem;
+        font-family: Yekan-Bakh !important;
+
+        @include desktop() {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.top-nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    @include desktop() {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 5rem !important;
+        padding-left: 5rem !important;
+    }
+
+    .btn-outline-orange {
+        color: $orange;
+        border: 2px solid $orange;
+        border-radius: 0;
+    }
+
+    background-color: $black;
+
+    .logo img {
+        height: 38px;
+
+        @include desktop() {
+            height: 48px;
+        }
+    }
+
+    .icons svg {
+        fill: $orange;
+        height: 22px;
+        cursor: pointer;
+    }
+
+    .menu {
+        margin-top: 2.5px;
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        background: $orange;
+        cursor: pointer;
+
+        svg {
+            fill: $navy;
+            margin-top: 10px;
+            margin-right: 7.5px;
+            height: 12px;
+            cursor: pointer;
+        }
+    }
+}
+
+.items {
+    .item {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 100%;
+        border: 2px solid $orange;
+
+        svg {
+            height: 40%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .name {
+            text-align: center;
+            width: 100%;
+            bottom: 0;
+            position: absolute;
+        }
+    }
+}
+
+.tooth {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: -5vh;
+    height: 80vh !important;
+    animation: tooth 1.5s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes tooth {
+    from {
+        background-image: url(../img/back-off.jpg);
+    }
+
+    to {
+        background-image: url(../img/back-on.jpg);
+    }
+}
+
+.desktop-nav {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+
+    .js-text-open {
+        display: none;
+    }
+
+    .close {
+        opacity: 1 !important;
+        background-color: $orange;
+        height: 48px;
+        color: $navy;
+        width: 48px;
+        line-height: 52px;
+        text-align: center;
+        font-size: 3.5rem;
+        outline: 0;
+        border: 0;
+        border-radius: $r-1;
+        position: relative;
+
+        .text {
+            svg {
+                padding: 5px;
+            }
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -65%);
+            position: absolute;
+        }
+    }
+
+    .items {
+        background-color: $white;
+        border-radius: $r-1;
+        display: flex;
+
+        a {
+            color: $black;
+            text-decoration: none;
+            line-height: 48px;
+            font-weight: bold;
+            transition: 0.1s;
+
+            &:hover {
+                // background-color: $navy;
+                // color: $white;
+            }
+        }
+    }
+
+    width: 100%;
+}
+
+.full-nav {
+    width: 100%;
+    height: 100%;
+    background: $navy;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+
+
+    .close {
+        cursor: pointer !important;
+        white-space: nowrap;
+        position: absolute;
+        top: 32px;
+        right: 32px;
+        color: $white;
+        font-weight: bold;
+        font-size: 2.4rem;
+
+    }
+
+    .items a {
+        font-size: 8vw;
+        color: $white;
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+
+// wordpress
+.site-navigation ul.menu {
+    margin: 0 !important;
+}
+
+.site-navigation {
+    ul li {
+        display: inline;
+    }
+}
+
+
+.products.columns-3 {
+    display: grid;
+    grid-template-columns: 100%;
+
+    @media (min-width: 576px) {
+        grid-template-columns: 50% 50%;
+    }
+
+    @media (min-width: 922px) {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+
+    @media (min-width: 1200px) {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+}
+
+.woocommerce ul.products.columns-3 li.product,
+.woocommerce-page ul.products.columns-3 li.product {
+    width: 100%;
+    padding: 20px;
+
+    @media (min-width: 576px) {
+        padding: 10px;
+    }
+
+    @media (min-width: 922px) {
+        padding: 10px;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 15px;
+    }
+}
+
+
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+    margin: 0 !important;
+}
+
+.woocommerce ul.products::before {
+    content: inherit;
+    display: none;
+}
+
+
+.single-products {
+    background-color: #10151B;
+}
+
+.products-content h3 a {
+    color: $orange !important;
+}
+
+.add_to_cart_button {
+    border-color: $orange !important;
+    color: $orange;
+}
+
+.add_to_cart_button:hover {
+    color: white;
+}
+
+.woocommerce ul.products li.product:hover .add-to-cart-btn {
+    background-color: $orange;
+}
+
+.single-products .products-image::before {
+    content: inherit;
+}
+
+.students-number {
+    display: none;
+}
+
+.single-courses-box .courses-box-footer ul li i {
+    color: $orange;
+}
+
+.courses-lesson {
+    color: white !important;
+}
+
+.course-price {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.lp-single-course .course-price {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.courses-details-header .courses-price .price {
+    margin-left: 0;
+}
+
+.courses-rating {
+    display: none;
+}
+
+.page-title-area {
+    display: none;
+}
+
+.brandent_course_container {
+    padding: 0 15px;
+
+    @include desktop() {
+        padding: 0 90px;
+    }
+}
+
+.courses-tag {
+    display: none;
+}
+
+.single-courses-box .courses-content h3 a {
+    width: 100%;
+    text-align: center;
+}
+
+.single-courses-box {
+    border-radius: 0;
+    background-color: $dark;
+    border: 1px solid white;
+    transition: 0.5s;
+    color: white;
+    box-shadow: inherit;
+}
+
+.single-courses-box .courses-image a img {
+    border-radius: 0;
+}
+
+.single-courses-box .courses-content h3 a {
+    color: $orange;
+
+    &:hover {
+        color: $orange;
+    }
+}
+
+.course-author {
+    display: none;
+}
+
+.topbar-result-count p {
+    color: $white !important;
+}
+
+.topbar-search {
+    display: none;
+}
+
+.lp-single-course {
+    h3 {
+        color: $orange;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.courses-details-desc ul li::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.courses-details-desc {
+    ul {
+        color: white !important;
+
+        * {
+            color: white !important;
+        }
+    }
+
+    strong {
+        color: white !important;
+        padding: 4px;
+        background-color: $orange;
+    }
+}
+
+.courses-details-header .courses-price .price {
+    // margin-left: -67px;
+    margin-right: 0;
+}
+
+.default-btn {
+    background-color: $orange;
+}
+
+.learn-press-pagination .page-numbers>li a.current,
+.learn-press-pagination .page-numbers>li .current,
+.question-numbers li.current a,
+.question-numbers li a:hover,
+.learnpress-page .lp-button {
+    background: $orange !important;
+}
+
+
+.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .duration {
+    background: gray;
+}
+
+.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .count-questions {
+    background: #ff1949;
+}
+
+.default-btn {
+    border: $orange;
+}
+
+.comments-area {
+    display: none;
+}
+
+.courses-details-image img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.courses-details-header .courses-meta ul li span {
+    color: $orange !important;
+}
+
+.courses-details-header .courses-meta ul {
+    color: white;
+}
+
+.course-price {
+    .price {
+        color: $orange
+    }
+}
+
+
+.courses-sidebar-information ul li span i {
+    color: $orange;
+}
+
+.courses-sidebar-syllabus {
+    background: white;
+}
+
+#lp-archive-courses>div.page-title-content>ul>li:nth-child(1)>a {
+    color: #767676;
+    text-decoration: none;
+}
+
+.page-main-content h2 {
+    color: $orange;
+    font-size: 2.5rem;
+}
+
+.courses-box-footer {
+    .course-price {
+        color: white;
+    }
+}
+
+.topbar-result-count {
+    text-align: right;
+}
+
+.courses-content {
+    min-height: 126px;
+}
+
+.learn-press-breadcrumb {
+    color: white;
+
+    a {
+        color: #767676 !important;
+        text-decoration: none !important;
+    }
+}
+
+.page-title-content {
+    ul {
+        display: none;
+    }
+}
+
+.btn-primary,
+.btn-primary:hover {
+    color: #fff;
+    background-color: $orange !important;
+    border-color: $orange !important;
+}
+
+bdi {
+    color: white;
+}
+
+.product-quantity {
+    span {
+        color: white;
+    }
+}
+
+.fa-trash {
+    color: $orange;
+}
+
+.woocommerce table.shop_table {
+    border-right-width: 2px;
+}
+
+#coupon_code {
+    height: 10px;
+}
+
+.cart-totals {
+    background-color: #0C1014;
+
+    h3 {
+        color: white;
+    }
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals tr th {
+    border: 1px solid $orange;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals tr td {
+    border: 1px solid $orange;
+}
+
+#customer_login {
+    *:not(input) {
+        color: white;
+    }
+
+    h3 {
+        color: $orange;
+    }
+}
+
+.courses-details-desc .audience-list li::before {
+
+    background-color: white;
+}
+
+.course-curriculum ul.curriculum-sections .section-content .course-item.item-locked .course-item-status:before {
+    content: "\f023";
+    color: #808080;
+}
+
+.courses-sidebar-syllabus {
+    border-radius: 0;
+}
+
+.woocommerce-checkout-review-order {
+    * {
+        color: white;
+    }
+}
+
+.cart_item {
+    * {
+        color: white;
+    }
+}
+
+.woocommerce table.shop_table td {
+    color: white;
+}
+
+.woocommerce-billing-fields__field-wrapper .form-row {
+
+    label,
+    strong {
+        color: white;
+    }
+}
+
+.checkout-area table {
+
+    th,
+    td {
+        border: solid 1px $orange;
+    }
+}
+
+.checkout-area table.shop_table td {
+    strong {
+        color: $orange;
+    }
+
+    border:solid 1px $orange;
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+    background: #10151b;
+    border-radius: 0px;
+    border: 1px solid $orange;
+}
+
+.woocommerce-checkout #payment div.payment_box::before {
+    border: 1em solid $orange;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+#order_comments_field {
+    label {
+        color: white;
+    }
+}
+
+.woocommerce table.shop_table {
+    border-color: transparent;
+}
+
+.woocommerce-checkout #payment div.payment_box {
+    background-color: $orange;
+}
+
+.woocommerce-MyAccount-navigation {
+    display: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    width: 100%;
+    margin: auto;
+    display: block;
+
+}
+
+.elementor-heading-title.elementor-size-xl {
+    font-family: Yekan-Bakh !important;
+    font-weight: 900;
+}
+
+.lp-tab-sections {
+    display: none;
+}
+
+#learn-press-profile-nav {
+    display: none;
+}
+
+#learn-press-user-profile {
+    padding: 0 5rem;
+}
+
+.courses-box-footer {
+    .course-price {
+        width: 150%;
+
+        .price {
+            width: 150%;
+        }
+    }
+}
+
+.lp-user-profile #learn-press-profile-content .lp-sub-menu li {
+    a {
+        color: white;
+    }
+
+    span {
+        color: $orange;
+
+    }
+}
+.lp-user-profile #learn-press-profile-content .lp-list-table thead tr th {
+    background:$orange;
+}
+.lp-user-profile #learn-press-profile-content .learn-press-subtab-content h3 {
+    font-size: 3rem;
+}
+.back-to-acc,.back-to-acc:hover{
+    border:1px solid $orange;
+    position: absolute;
+    color:$orange;
+    border-radius: 0;
+}
+.woocommerce-MyAccount-content * {
+    color: white;
+}
+.woocommerce .woocommerce-MyAccount-content form label {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: white;
+}
+.woocommerce .woocommerce-MyAccount-content .edit-account fieldset legend {
+    font-size: 20px;
+    color:$orange;
+}
+span.number{
+color:white;
+}
+.result-statistic-field{
+    label{
+        text-align: right;
+    }
+  
+}
+.quiz-result .result-statistic .result-statistic-field p {
+    text-align: left;
+}
+.result-grade{
+    margin-bottom: 10px;
+}
+.course-item-nav .next {
+    text-align: right;
+}
+.course-item-nav .prev {
+    text-align: left;
+}
+.learn-press-progress .progress-bg .progress-active {
+
+    background: $orange;
+ 
+}
+.woocommerce-product-gallery {
+    direction: inherit;
+}
+.woocommerce-product-details__short-description{
+    *{
+        color:white;
+    }
+}
+.products_details div.product .woocommerce-tabs .panel {
+    margin: 0;
+    border-bottom: 1px solid $orange;
+    border-left: 1px solid $orange;
+    border-right: 1px solid $orange;
+    padding: 25px;
+    p{
+        color:white;
+    }
+}
+
+.products_details div.product .product_meta span.posted_in a{
+    color:$orange;
+}
+.products_details div.product .woocommerce-tabs .panel p {
+
+    color: white;
+}
+.nice-select:after {
+    right: 6px;
+}
+.woocommerce .form-control {
+    padding-right: 20px;
+}

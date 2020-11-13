@@ -1,0 +1,30 @@
+<wpml-config>
+    <admin-texts>
+        <key name="edali_opt">
+            <key name="blog_title" />
+            <key name="lessons_title" />
+            <key name="students_title" />
+            <key name="rating_title" />
+            <key name="course_meta_duration_text" />
+            <key name="course_meta_students_enrolled_text" />
+            <key name="course_last_updated_text" />
+            <key name="course_instructor_title" />
+            <key name="course_instructor_view_profile" />
+            <key name="rating_title" />
+            <key name="buy_course_title" />
+            <key name="student_label" />
+            <key name="duration_label" />
+            <key name="effort_label" />
+            <key name="institution_label" />
+            <key name="subject_label" />
+            <key name="quizzes_label" />
+            <key name="language_label" />
+            <key name="video_subtitle_label" />
+            <key name="certificate_label" />
+            <key name="related_courses_title" />
+            <key name="related_post_count" />
+            <key name="sub_title_404" />
+            <key name="button_not_found" />
+        </key>
+    </admin-texts>
+</wpml-config>

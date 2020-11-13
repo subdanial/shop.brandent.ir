@@ -1,0 +1,496 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-04-25 13:00+0600\n"
+"PO-Revision-Date: 2020-02-17 18:31+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html_e;_e;esc_attr_x;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: 404.php:37 archive.php:47 index.php:51 page.php:46 search.php:43
+#: single-instructor.php:13 single.php:67
+msgid "Home"
+msgstr ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: learnpress/checkout/form.php:87
+msgid "Back"
+msgstr ""
+
+#: learnpress/checkout/form.php:100
+msgid "Continue checkout as Guest?"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:30
+msgid "Order Number"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:36
+msgid "Item"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:63
+#: learnpress/profile/tabs/courses.php:33
+#: learnpress/profile/tabs/courses/purchased.php:40
+#: learnpress/profile/tabs/orders/list.php:33
+#: learnpress/profile/tabs/quizzes.php:40
+msgid "Date"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:69
+#: learnpress/checkout/review-order.php:34
+#: learnpress/checkout/review-order.php:163
+#: learnpress/profile/tabs/orders/list.php:35
+#: woocommerce/cart/cart-totals.php:91 woocommerce/cart/cart-totals.php:92
+#: woocommerce/cart/cart.php:109
+msgid "Total"
+msgstr ""
+
+#: learnpress/checkout/order-received.php:76
+msgid "Payment Method"
+msgstr ""
+
+#: learnpress/checkout/review-order.php:20
+#: woocommerce/checkout/form-checkout.php:49
+msgid "Your order"
+msgstr ""
+
+#: learnpress/checkout/review-order.php:33
+#: learnpress/profile/tabs/courses.php:32
+#: learnpress/profile/tabs/courses/purchased.php:39
+#: learnpress/profile/tabs/quizzes.php:38
+msgid "Course"
+msgstr ""
+
+#: learnpress/checkout/review-order.php:131
+#: woocommerce/cart/cart-totals.php:32 woocommerce/cart/cart-totals.php:33
+#: woocommerce/cart/cart.php:33
+msgid "Subtotal"
+msgstr ""
+
+#: learnpress/content-archive-course.php:90
+msgid "Search our courses"
+msgstr ""
+
+#: learnpress/content-course.php:49
+msgid "rating"
+msgstr ""
+
+#: learnpress/content-course.php:59
+msgid "students"
+msgstr ""
+
+#: learnpress/content-course.php:63
+msgid "lessons"
+msgstr ""
+
+#: learnpress/global/become-teacher-form.php:21
+msgid "Request to become a teacher"
+msgstr ""
+
+#: learnpress/global/become-teacher-form/button.php:19
+msgid "Submitting"
+msgstr ""
+
+#: learnpress/global/become-teacher-form/button.php:19
+msgid "Submit"
+msgstr ""
+
+#: learnpress/global/form-login.php:44
+#: woocommerce/myaccount/form-login.php:52
+msgid "Remember me"
+msgstr ""
+
+#: learnpress/global/form-login.php:50
+#: woocommerce/myaccount/form-login.php:33
+msgid "Login"
+msgstr ""
+
+#: learnpress/global/form-login.php:54
+#: woocommerce/myaccount/form-login.php:58
+msgid "Lost your password?"
+msgstr ""
+
+#: learnpress/global/form-login.php:57
+msgid "Not a member yet?"
+msgstr ""
+
+#: learnpress/global/form-login.php:57
+msgid "Register now"
+msgstr ""
+
+#: learnpress/global/form-register.php:44
+#: woocommerce/myaccount/form-login.php:71
+#: woocommerce/myaccount/form-login.php:108
+msgid "Register"
+msgstr ""
+
+#: learnpress/profile/get-back-order.php:22
+#: learnpress/profile/tabs/orders/recover-my-order.php:23
+msgid ""
+"This order was checked out by you but there is no user was assigned to."
+msgstr ""
+
+#: learnpress/profile/get-back-order.php:23
+#: learnpress/profile/tabs/orders/recover-my-order.php:24
+msgid ""
+"If the order is made for another one, you can send the code below to "
+"them."
+msgstr ""
+
+#: learnpress/profile/get-back-order.php:24
+#: learnpress/profile/tabs/orders/recover-my-order.php:25
+msgid "If the order is made for yourself, you can assign it to you here."
+msgstr ""
+
+#: learnpress/profile/profile.php:46
+msgid "This user does not public their profile."
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:27
+#: learnpress/profile/tabs/courses/owned.php:25
+msgid "My Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:34
+#: learnpress/profile/tabs/courses/purchased.php:41
+msgid "Passing Grade"
+msgstr ""
+
+#: learnpress/profile/tabs/courses.php:35
+#: learnpress/profile/tabs/courses/purchased.php:42
+#: learnpress/profile/tabs/quizzes.php:41
+msgid "Progress"
+msgstr ""
+
+#: learnpress/profile/tabs/courses/purchased.php:24
+msgid "Purchased Courses"
+msgstr ""
+
+#: learnpress/profile/tabs/orders/list.php:26
+msgid "My Orders"
+msgstr ""
+
+#: learnpress/profile/tabs/orders/list.php:32
+msgid "Order"
+msgstr ""
+
+#: learnpress/profile/tabs/orders/list.php:34
+msgid "Status"
+msgstr ""
+
+#: learnpress/profile/tabs/orders/list.php:36
+msgid "Action"
+msgstr ""
+
+#: learnpress/profile/tabs/orders/recover-order.php:20
+msgid "If you have a valid order key you can recover it here."
+msgstr ""
+
+#: learnpress/profile/tabs/quizzes.php:23
+msgid "My Quizzes"
+msgstr ""
+
+#: learnpress/profile/tabs/quizzes.php:39
+msgid "Quiz"
+msgstr ""
+
+#: learnpress/profile/tabs/quizzes.php:42
+msgid "Interval"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/avatar.php:58
+msgid "Upload"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/avatar.php:60
+msgid "Remove"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/avatar.php:76
+#: learnpress/profile/tabs/settings/basic-information.php:111
+#: learnpress/profile/tabs/settings/change-password.php:87
+#: learnpress/profile/tabs/settings/publicity.php:88
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:49
+msgid "Biographical Info"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:53
+msgid ""
+"Share a little biographical information to fill out your profile. This "
+"may be shown publicly."
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:57
+msgid "First Name"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:65
+msgid "Last Name"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:73
+msgid "Nickname"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/basic-information.php:81
+msgid "Display name publicly as"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:43
+msgid "Old password"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:49
+msgid "New password"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:55
+msgid "Confirmation password"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/change-password.php:59
+msgid "New password does not match!"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/publicity.php:38
+msgid "My dashboard"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/publicity.php:43
+msgid ""
+"Public user profile content, if this option is turn off then other "
+"sections in profile also become invisible."
+msgstr ""
+
+#: learnpress/profile/tabs/settings/publicity.php:50
+msgid "My courses"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/publicity.php:54
+msgid "Public your profile courses"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/publicity.php:61
+msgid "My quizzes"
+msgstr ""
+
+#: learnpress/profile/tabs/settings/publicity.php:65
+msgid "Public your profile quizzes"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: single.php:146
+msgid "View Profile"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:27
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:54 woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:65
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+msgid "Name"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:91
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:85
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:146
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:57
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and "
+"in reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:87
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:48
+msgid "Password change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:55
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:59
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:40
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+#: woocommerce/myaccount/form-login.php:94
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:80
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:100
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:52
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:56
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:39
+msgid "Customer Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:66
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:119
+msgid ""
+"Only logged in customers who have purchased this product may leave a "
+"review."
+msgstr ""
+
+#: woocommerce/single-product/related.php:26
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:26
+msgid "You may also like&hellip;"
+msgstr ""

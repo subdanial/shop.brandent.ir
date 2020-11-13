@@ -1,0 +1,52 @@
+@font-face { 
+
+    font-family: 'Vazir'; 
+
+    src: url('fonts/Vazir.eot');
+
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */ 
+
+           url('fonts/Vazir.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/ 
+
+           url('fonts/Vazir.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ 
+
+           url('fonts/Vazir.ttf') format('truetype'); 
+
+}
+
+h1,h2,h3,h4,h5,h6,#wpwrap,.redux-container, .nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper {
+
+    font-family: Vazir !important;
+
+}
+
+.learnpress .rwmb-field .rwmb-label {
+
+    float: right;
+
+}
+
+#learn-press-admin-editor-metabox-settings .tabs-container {
+
+        display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+    align-items: flex-start;
+
+}
+body.theme-edali.lp-submenu-edali #edali_purchase_code,body.theme-edali.lp-submenu-edali #wpbody-content .et-dsd-wrap .et-dsb-box {
+    display:none
+}
+body.theme-edali.lp-submenu-edali #wpbody-content .et-dsd-wrap .et-dsb-box.dt-theme-register-box {
+    display: block !important;
+}
+table.form-table[role=presentation] #edali_opt-logo_dimensions, table.form-table[role=presentation] #edali_opt-footer_logo_dimensions, table.form-table[role=presentation]
+ #edali_opt-mobile_logo_dimensions {
+    float: left;
+}
+li.toplevel_page_edali#toplevel_page_edali {
+	display:none
+}

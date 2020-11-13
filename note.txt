@@ -1,0 +1,24 @@
+
+	<?php
+	$header_style = '';
+	global $edali_opt;
+	if ( !empty($edali_opt['header_style']) && ($edali_opt['header_style'] != '' ) ):
+		$header_style 			= new WP_Query(array(
+			'post_type' 		=> 'header',
+			'posts_per_page' 	=> -1,
+			'p' 				=> $edali_opt['header_style'],
+		));
+	endif;
+
+	if ( $header_style != '' ):
+		if ( $header_style->have_posts() ):
+			while ( $header_style->have_posts() ) : $header_style->the_post();
+				the_content();
+			endwhile;
+			wp_reset_postdata();
+		endif;
+	else: ?>
+
+		<!-- <?php edali_header_area(); ?> -->
+
+	<?php endif; ?>
