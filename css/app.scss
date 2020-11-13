@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (min-width:992px) {
     .home {
         overflow: hidden;
-    }  
+    }
 }
 
 
@@ -79,13 +79,14 @@ body::-webkit-scrollbar-thumb {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
 }
-@media(min-width:992px){
+
+@media(min-width:992px) {
     .site-main {
         padding-top: 2rem;
         padding-right: 5rem;
         padding-left: 5rem;
     }
-    
+
 }
 
 .woocommerce-breadcrumb {
@@ -130,14 +131,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-@media(min-width:992px){
+@media(min-width:992px) {
     .add_to_cart_button {
         margin: auto !important;
         display: block !important;
         width: 65%;
         text-align: center !important;
     }
-    
+
 }
 
 .woocommerce ul.products li.product,
@@ -166,7 +167,8 @@ body::-webkit-scrollbar-thumb {
     color: white;
     background-color: #FF6600;
 }
-@media (min-width:992px){
+
+@media (min-width:992px) {
     .orderby {
         padding-top: 0.318em;
         padding-right: 1em;
@@ -390,25 +392,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.woocommerce-MyAccount-navigation-link--orders.is-active > a
-{
+.woocommerce-MyAccount-navigation-link--orders.is-active>a {
     background-color: #FF6600;
     color: white;
 }
-.woocommerce form.login{
+
+.woocommerce form.login {
     border-radius: 0;
 }
-.btn-back{
-    border-radius: 0!important;
-    border:1px solid #FF6600!important;
-    color:#FF6600!important;
-    margin-right: 4.5rem!important;
+
+.btn-back {
+    border-radius: 0 !important;
+    border: 1px solid #FF6600 !important;
+    color: #FF6600 !important;
+    margin-right: 4.5rem !important;
     bottom: 40px;
 }
-#menu-menu-2{
+
+#menu-menu-2 {
     list-style: none;
 }
-.woocommerce-products-header{
+
+.woocommerce-products-header {
     padding-bottom: 2rem;
 }
 
@@ -1250,29 +1255,34 @@ span.number {
 
 
 @media (max-width : 992px) {
+
+    .woocommerce .woocommerce-ordering,
+    .woocommerce-page .woocommerce-ordering {
+        float: inherit;
+    }
+
     .top-nav .menu svg {
         margin-top: 5px;
     }
-    .btn-back-mobile-resize{
+
+    .btn-back-mobile-resize {
         padding-right: 4.5rem;
         padding-left: 4.5rem;
         margin-top: 1.5rem;
     }
-    a.btn-back{
-        margin-right:0!important;
+
+    a.btn-back {
+        margin-right: 0 !important;
         width: 100%;
-        padding:12px;
+        padding: 12px;
     }
 }
 
 
 @media (max-width : 480px) {
-    a.btn-back{
-        margin-right:0!important;
+    a.btn-back {
+        margin-right: 0 !important;
         width: 100%;
-        padding:4px;
+        padding: 4px;
     }
 }
-
-
-

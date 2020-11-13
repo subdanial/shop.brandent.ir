@@ -1279,6 +1279,10 @@ span.number {
 }
 
 @media (max-width: 992px) {
+  .woocommerce .woocommerce-ordering,
+  .woocommerce-page .woocommerce-ordering {
+    float: inherit;
+  }
   .top-nav .menu svg {
     margin-top: 5px;
   }
