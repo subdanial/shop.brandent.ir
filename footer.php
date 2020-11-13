@@ -23,8 +23,10 @@ if (!function_exists('elementor_theme_do_location') || !elementor_theme_do_locat
 <div class="js-full-nav full-nav justify-content-center d-lg-none align-items-center">
             <div class="js-full-nav-close close">&times;</div>
             <div class="items">
-            <?php if (has_nav_menu('menu-1')) : ?>
-                    <?php wp_nav_menu(array('theme_location' => 'menu-1')); ?>
+            <?php if (has_nav_menu('primary')) : ?>
+                <nav class="site-navigation" role="navigation">
+                    <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+                </nav>
             <?php endif; ?>
             <a href="http://brandent.ir">بازگشت به سایت</a>
             </div>
