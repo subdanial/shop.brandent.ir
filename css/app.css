@@ -1282,11 +1282,23 @@ span.number {
   .top-nav .menu svg {
     margin-top: 5px;
   }
+  .btn-back-mobile-resize {
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+    margin-top: 1.5rem;
+  }
+  a.btn-back {
+    margin-right: 0 !important;
+    width: 100%;
+    padding: 12px;
+  }
 }
 
 @media (max-width: 480px) {
-  .btn-back {
-    width: 70%;
+  a.btn-back {
+    margin-right: 0 !important;
+    width: 100%;
+    padding: 4px;
   }
 }
 /*# sourceMappingURL=app.css.map */
