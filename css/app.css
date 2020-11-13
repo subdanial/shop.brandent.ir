@@ -1283,4 +1283,10 @@ span.number {
     margin-top: 5px;
   }
 }
+
+@media (max-width: 480px) {
+  .btn-back {
+    width: 70%;
+  }
+}
 /*# sourceMappingURL=app.css.map */
