@@ -170,7 +170,7 @@ button {
 
 .woocommerce ul.products li.product a.added_to_cart {
   margin-left: 10px;
-  color: white;
+  color: #000;
   -webkit-transition: prop time;
   transition: prop time;
 }
