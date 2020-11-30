@@ -26,12 +26,11 @@
     <div class="items d-lg-none px-4 mt-4">
         <div class="row g-4 p-5">
             <div class="col-6">
-                <a href="https://shop.brandent.ir/course-category/%d8%af%d9%88%d8%b1%d9%87-%d9%87%d8%a7%db%8c-%d8%a2%d9%86%d9%84%d8%a7%db%8c%d9%86/">
+                <a href="https://brandent.ir/">
                     <div class="item">
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512.002 512.002;" xml:space="preserve">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512.002 512.002" xml:space="preserve">
 <g>
 	<g>
 		<path d="M502.001,492.002h-44v-79c0-5.523-4.478-10-10-10c-5.522,0-10,4.477-10,10v79h-120v-190c0-5.523-4.478-10-10-10h-104
