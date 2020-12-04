@@ -1320,6 +1320,6 @@ span.number {
 }
 
 .cart-table table thead tr th {
-  color: white;
+  color: white !important;
 }
 /*# sourceMappingURL=app.css.map */
