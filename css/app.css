@@ -1311,7 +1311,7 @@ span.number {
   color: white;
 }
 
-.cart-subtotal th {
-  border-top: #d35400;
+.woocommerce table.shop_table tbody:first-child tr:first-child th {
+  border-top: 1px solid #FF6600 !important;
 }
 /*# sourceMappingURL=app.css.map */
