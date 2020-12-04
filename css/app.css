@@ -1314,4 +1314,8 @@ span.number {
 .woocommerce table.shop_table tbody:first-child tr:first-child th {
   border-top: 1px solid #FF6600 !important;
 }
+
+.woocommerce-cart .cart-collaterals .cart_totals table tr:first-child td {
+  border-top: 1px solid #FF6600 !important;
+}
 /*# sourceMappingURL=app.css.map */
