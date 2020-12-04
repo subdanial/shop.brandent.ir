@@ -1318,4 +1318,8 @@ span.number {
 .woocommerce-cart .cart-collaterals .cart_totals table tr:first-child td {
   border-top: 1px solid #FF6600 !important;
 }
+
+.cart-table table thead tr th {
+  color: white;
+}
 /*# sourceMappingURL=app.css.map */
