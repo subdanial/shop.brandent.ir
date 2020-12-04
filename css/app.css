@@ -1326,4 +1326,8 @@ span.number {
 .page-main-content b, .page-main-content strong {
   color: #FF6600;
 }
+
+p {
+  color: white;
+}
 /*# sourceMappingURL=app.css.map */
